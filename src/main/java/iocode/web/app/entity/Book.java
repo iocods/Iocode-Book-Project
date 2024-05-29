@@ -19,6 +19,7 @@ public class Book {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "author")
     private Author author;
+    @Column(name = "published_year")
     private int year;
     private double price;
 
