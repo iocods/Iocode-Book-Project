@@ -90,6 +90,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>iocode-book-app</finalName>
 	</build>
 
 </project>
